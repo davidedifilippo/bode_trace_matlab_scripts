@@ -1,2 +1,3 @@
-# bode_trace_matlab_scripts
-bode plot scripts for costant, monomial, binomial and second order terms
+#Bode plot 
+
+bode plot tracers scripts for costant, monomial, binomial and second order terms
