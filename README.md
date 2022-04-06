@@ -38,7 +38,7 @@ restituirebbe gli angoli in radianti. Anche PH è un vettore di 100.000 valori d
 
 ### Diagramma di Bode del modulo 
 
-![This is an image](./binomio/binomio_ampiezza_db.png)
+![This is an image](./binomial_term/binomio_ampiezza_db.png)
 
 Si creano una finestra con titolo ed etichette per i due assi:
 
@@ -59,7 +59,7 @@ Il segno -GdB si deve aggiungere se si suppone che il termine sia al denominator
 
 ### Diagramma di Bode della fase
 
-![This is an image](./binomio/Binomio_fase.png)
+![This is an image](./binomio/Binomial_term.png)
 
     h = figure(2);
     title('Risposta di fase');
