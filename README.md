@@ -38,7 +38,7 @@ restituirebbe gli angoli in radianti. Anche PH è un vettore di 100.000 valori d
 
 ### Diagramma di Bode del modulo 
 
-![This is an image](binomial_term/binomio_ampiezza_db.png)
+![This is an image](https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/Binomial_term/binomio_ampiezza_dB.png)
 
 Si creano una finestra con titolo ed etichette per i due assi:
 
