@@ -15,7 +15,7 @@ ylabel('dB');
 hold on;
 grid on;
 
-plot(log10(w), GdB, 'b','linewidth',2);
+plot(log10(w), -GdB, 'b','linewidth',2);
 
 h = figure(2);
 title('Risposta di fase');
@@ -24,4 +24,4 @@ ylabel('Fase');
 hold on;
 grid on;
 
-plot(log10(w), PH, 'r','linewidth',2);
+plot(log10(w), -PH, 'r','linewidth',2);
