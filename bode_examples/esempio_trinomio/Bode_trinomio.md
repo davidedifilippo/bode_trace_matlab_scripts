@@ -37,9 +37,8 @@ Tramiter la funzione:
 	zero(G)
 
 		ans =
-
-   	             -10
-    	             1
+			-10
+			1
 
 
 ## Calcolo dei poli della FDT
