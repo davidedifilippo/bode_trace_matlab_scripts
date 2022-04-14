@@ -82,8 +82,9 @@ Il matlab consente di ottenere solo i diagrammi reali e non quelli asintotici:
 
 ## Diagramma di Bode asintotico e reale
 
-Tuttavia è possibile ottenere il diagramma di Bode asintotico attraverso uno script matlab da inserire nell'editor, salvare con il nome bode_asymp.m e poi rendere eseguibile dando l'autorazzazione ad includere la cartella tra i percorsi eseguibili. Basta ora 
-scrivere:
+Tuttavia è possibile ottenere il diagramma di Bode asintotico attraverso uno script matlab da inserire nell'editor, salvare con il nome bode_asymp.m e poi renderlo eseguibile dando l'autorizzazione ad includere la cartella tra i percorsi eseguibili. 
+
+Basta ora nella riga di comando scrivere:
 
 
 		bode_asymp(conv(G1,G2), conv(G3,G4));
@@ -99,6 +100,12 @@ La linea blu è il reale quella rossa asintotico.
 
 ![This is an image](https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/Fase_asint.png)
 
-## Script bode_asymp.m
+## Script bode_asymp.m per matlab
 
-[link allo script bode_asymp.m](https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/bode_asymp.m)
+[bode_asymp.m](https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/bode_asymp.m)
+
+## Script bode_asymp.m per octave
+
+[bode_asymp.m](https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/bode_asympt.m)
+
+
