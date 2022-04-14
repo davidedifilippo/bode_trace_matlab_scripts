@@ -93,9 +93,9 @@ scrivere:
 per ottenere i grafici in figura:
 
 
-![This is an image] (https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/Modulo_asint.png)
+![This is an image](https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/Modulo_asint.png)
 
 
 La linea blu è il reale quella rossa asintotico.
 
-![This is an image] (https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/Fase_asint.png)
+![This is an image](https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/Fase_asint.png)
