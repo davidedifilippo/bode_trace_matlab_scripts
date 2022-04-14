@@ -1,5 +1,5 @@
 
-w = 0.01:0.01:10^3;
+w = 0.1:0.01:10^4;
 tau = 0.01;
 
 
@@ -15,12 +15,13 @@ ylabel('dB');
 hold on;
 grid on;
 
-plot(log10(w), GdB, 'b','linewidth',2);
+plot(log10(w), -GdB, 'b','linewidth',2);
 
+h = figure(2);
 title('Risposta di fase');
 xlabel('Log10(w)');
 ylabel('Fase');
 hold on;
 grid on;
 
-plot(log10(w), PH, 'r','linewidth',2);
+plot(log10(w), -PH, 'r','linewidth',2);
