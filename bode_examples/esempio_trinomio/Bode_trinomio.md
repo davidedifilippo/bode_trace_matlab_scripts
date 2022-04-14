@@ -67,6 +67,8 @@ Tramite la funzione:
 
 è possibile ottenere il posizionamento dei poli e degli zeri sul piano complesso.
 
+![This is an image](https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/poli_zeri_example.jpg)
+
 
 
 ## Diagramma di Bode asintotico e reale
@@ -75,6 +77,8 @@ Il matlab consente di ottenere solo i diagrammi reali e non quelli asintotici:
 
 		bode(G);
 		grid;
+		
+		
 
 
 ## Diagramma di Bode asintotico e reale
@@ -86,10 +90,12 @@ scrivere:
 		bode_asymp(conv(G1,G2), conv(G3,G4));
 		
 
-per ottenere il grafico in figura:
+per ottenere i grafici in figura:
 
 
-
+![This is an image] (https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/Modulo_asint.png)
 
 
 La linea blu è il reale quella rossa asintotico.
+
+![This is an image] (https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/Fase_asint.png)
