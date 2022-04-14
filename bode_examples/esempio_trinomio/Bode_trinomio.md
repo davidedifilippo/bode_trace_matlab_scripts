@@ -108,6 +108,6 @@ La linea blu è il reale quella rossa asintotico.
 
 ## Script bode_asymp.m per octave
 
-[bode_asymp.m](https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/bode_asympt.m)
+[bode_asymp.m](https://github.com/davidedifilippo/bode_trace_matlab_scripts/blob/main/bode_examples/esempio_trinomio/bodeasympt.m)
 
 
