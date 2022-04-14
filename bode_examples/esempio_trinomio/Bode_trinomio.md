@@ -12,7 +12,7 @@ e creare la FDT complessiva:
 
 	G = tf(conv(G1,G2), conv(G3,G4));
 
-dove tf sta per transfer funztion. conv(G1,G2) calcola il prodotto dei termini al numeratore in s. Stessa cosa per il denominatore.
+dove tf sta per transfer function. conv(G1,G2) calcola il prodotto dei termini al numeratore in s. Stessa cosa per il denominatore.
 
 	G =
  
