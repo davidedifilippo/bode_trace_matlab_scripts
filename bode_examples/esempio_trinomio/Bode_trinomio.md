@@ -3,10 +3,10 @@
 
 In matlab possiamo inserire i singoli fattori della FDT scomposta in termini elementari:
 
-G1 = [1 -1]; 	 termine binomio s-1
-G2 = [1 10]; 	 termine binomio s+10
-G3 = [1 0];  	 termine monomio s
-G4 = [1 1 16]; 	 termine trinomio s^2 + s + 16 
+	G1 = [1 -1]; 	 termine binomio s-1
+	G2 = [1 10]; 	 termine binomio s+10
+	G3 = [1 0];  	 termine monomio s
+	G4 = [1 1 16]; 	 termine trinomio s^2 + s + 16 
 
 e creare la FDT complessiva:
 
