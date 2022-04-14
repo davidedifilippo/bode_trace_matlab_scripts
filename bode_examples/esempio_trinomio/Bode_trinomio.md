@@ -3,10 +3,10 @@
 
 In matlab possiamo inserire i singoli fattori della FDT scomposta in termini elementari:
 
-G1 = [1 -1]; 	// termine binomio s-1
-G2 = [1 10]; 	// termine binomio s+10
-G3 = [1 0];  	// termine monomio s
-G4 = [1 1 16]; 	//termine trinomio 
+G1 = [1 -1]; 	 termine binomio s-1
+G2 = [1 10]; 	 termine binomio s+10
+G3 = [1 0];  	 termine monomio s
+G4 = [1 1 16]; 	 termine trinomio s^2 + s + 16 
 
 e creare la FDT complessiva:
 
@@ -36,10 +36,10 @@ Tramiter la funzione:
 
 	zero(G)
 
-			ans =
+		ans =
 
-   			     -10
-    	 		 1
+   	             -10
+    	             1
 
 
 ## Calcolo dei poli della FDT
@@ -52,9 +52,9 @@ possiamo determinare i poli della FDT:
 
 		ans =
 
-   				 0.0000 + 0.0000i
-  				-0.5000 + 3.9686i
-  				-0.5000 - 3.9686i
+   			 0.0000 + 0.0000i
+  			-0.5000 + 3.9686i
+  			-0.5000 - 3.9686i
 
 come vediamo la FDT ha due poli complessi coniugati e un polo nell'origine. Il termine trinomio non può essere scomposto.
 
@@ -66,6 +66,8 @@ Tramite la funzione:
 		grid
 
 è possibile ottenere il posizionamento dei poli e degli zeri sul piano complesso.
+
+
 
 ## Diagramma di Bode asintotico e reale
  
