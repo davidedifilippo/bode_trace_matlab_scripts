@@ -32,9 +32,11 @@ e poi porre:
 
 ## Calcolo degli zeri della FDT
 
-Tramiter la funzione:
+Tramite la funzione:
 
 	zero(G)
+	
+possiamo determinare gli zeri della FDT
 
 		ans =
 			-10
